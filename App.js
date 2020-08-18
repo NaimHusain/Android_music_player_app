@@ -28,41 +28,6 @@ import {
 
 import MovieList from './src/components/Play'
 
-// console.log(new Error().stack);  
-
-// const Sound = require('react-native-sound')
-// // // export default class MovieList extends Component {
-// class MovieList extends Component {
-//   componentDidMount(){
-//     console.log(Sound)
-//     this.hello = new Sound('alexander_nakarada_superepic.mp3', Sound.MAIN_BUNDLE, (error) => {
-//       if (error) {
-//         return;
-//       }
-//     });
-//   }
-  
-  
-//   handlePress() {
-//     this.hello.play((success) => {
-//       if (!success) {
-//         console.log('Sound did not play')
-//       }
-//     })
-//   }
-
-//   render() {
-//       const { movie } = this.props
-//       return (
-//           <TouchableOpacity onPress={this.handlePress.bind(this)}>
-//               <View>
-//                     <Text>Start</Text>
-//               </View>
-//           </TouchableOpacity>
-//       )
-//   }
-// }
-
 const App: () => React$Node = () => {
   return (
     <>
